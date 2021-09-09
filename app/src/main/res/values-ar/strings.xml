@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">calculator</string>
+    <string name="num_0">٠</string>
+    <string name="txt_start">٠</string>
+    <string name="num_1">١</string>
+    <string name="num_2">٢</string>
+    <string name="num_3">٣</string>
+    <string name="num_4">٤</string>
+    <string name="num_5">٥</string>
+    <string name="num_6">٦</string>
+    <string name="num_7">٧</string>
+    <string name="num_8">٨</string>
+    <string name="num_9">٩</string>
+    <string name="plas1">+</string>
+    <string name="fraction">^</string>
+    <string name="double2">*</string>
+    <string name="division">/</string>
+    <string name="minus">-</string>
+    <string name="equal">=</string>
+    <string name="point">.</string>
+    <string name="refresh">AC</string>
+    <string name="lan">🌐</string>
+</resources>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:gravity="bottom|end"
+        android:textColor="@color/black"
+        android:textSize="80sp"
+        android:id="@+id/txt_view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="182dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@android:color/darker_gray"
+            android:gravity="center"
+            android:text="@string/refresh"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute"
+            android:id="@+id/refresh"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:text="@string/fraction"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute"
+            android:id="@+id/fraction"/>
+
+        <Button
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:text="@string/division"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute"
+            android:id="@+id/division"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="@string/num_7"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute"
+            android:id="@+id/num_7"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="@string/num_8"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute"
+            android:id="@+id/num_8"/>
+
+        <Button
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="@string/num_9"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute"
+            android:id="@+id/num_9"/>
+        <Button
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:text="@string/double2"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute"
+            android:id="@+id/double2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/num_4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="@string/num_4"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:id="@+id/num_5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="@string/num_5"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:id="@+id/num_6"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="@string/num_6"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:text="@string/minus"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/num_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="@string/num_1"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:id="@+id/num_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="@string/num_2"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:id="@+id/num_3"
+            android:layout_width="103dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="@string/num_3"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:id="@+id/plas1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:text="@string/plas1"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/lan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@android:color/darker_gray"
+            android:gravity="center"
+            android:text="@string/lan"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute" />
+        <Button
+            android:id="@+id/num_0"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="@string/num_0"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute" />
+
+        <Button
+            android:id="@+id/point"
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:text="@string/point"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute" />
+
+
+        <Button
+            android:id="@+id/equal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:text="@string/equal"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            tools:ignore="UnusedAttribute" />
+    </LinearLayout>
+
+</LinearLayout>
